@@ -55,3 +55,63 @@ nav {
   flex-direction: column;
   gap: 20px;
 }
+
+.spacer{
+    flex: 1;
+}
+
+.main{
+    width: 100%;
+}
+
+.table-container{
+    padding: 2rem;
+}
+
+.table-container header{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    border-radius: .3rem;
+    padding: .4rem;
+    color: #a8a8a8;
+    border: 2px solid #a8a8a8 ;
+
+}
+.btn-group{
+    display: flex;
+    margin-inline: 1rem;
+}
+.btn-group :nth-child(1){
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn-group :nth-child(2){
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td{
+    padding: .5rem 0;
+}
+
+table tr td{
+    width: 20%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(206, 206, 206);
+}
+
+.table-header{
+    background-color: #fff;
+    color: #000000;
+}
